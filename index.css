@@ -74,7 +74,6 @@
 .quotes-l, .quotes-r{
     writing-mode: vertical-rl;
     text-orientation: upright;
-    font-family: "League Spartan";
     font-style: normal;
     font-weight: 100;
     font-size: 14px;
@@ -84,13 +83,11 @@
 }
 .welcome{
     display: inline-block;
-    font-family: "League Spartan";
     background-color: white;
 }
 
 .h1-reg{
     /* Headline 1 Reg */
-    font-family: "League Spartan";
     font-style: normal;
     font-weight: 350;
     font-size: 32px;
@@ -108,4 +105,8 @@ footer{
     top: 3213px;
     background-color: #3C8694;
     color: white;
+}
+
+body{
+    font-family: "League Spartan";
 }
