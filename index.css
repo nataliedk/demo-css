@@ -114,6 +114,24 @@ footer {
   top: 3213px;
   background-color: #3c8694;
   color: white;
+  padding-top: 20px;
+}
+
+.navbar {
+  position: fixed;
+  left: 47px;
+  top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  padding-left: 47px;
+}
+
+.nav-menu {
+  padding-left: 979px;
+  justify-content: space-between;
 }
 
 body {
