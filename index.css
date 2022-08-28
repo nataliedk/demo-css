@@ -1,4 +1,38 @@
-.profile1 {
+body {
+  font-family: "League Spartan", "Arial", sans-serif;
+}
+
+footer {
+  position: absolute;
+  padding: 10px;
+  width: 1440px;
+  height: 64px;
+  left: 0px;
+  top: 3213px;
+  background-color: #3c8694;
+  color: white;
+  padding-top: 20px;
+}
+
+.navbar {
+  position: fixed;
+  left: 47px;
+  top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  padding-left: 47px;
+}
+
+.nav-menu {
+  padding-left: 979px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.profile-1 {
   display: inline-block;
   position: absolute;
   width: 509.5px;
@@ -87,7 +121,7 @@
   background-color: white;
 }
 
-.h1-reg {
+.headline {
   /* Headline 1 Reg */
   font-style: normal;
   font-weight: 350;
@@ -97,43 +131,10 @@
   letter-spacing: 0.04em;
 }
 
-.section2 {
+.section-2 {
   position: static;
   width: 900px;
   height: 420px;
   margin-top: 1510px;
   margin-left: 124px;
-}
-
-footer {
-  position: absolute;
-  padding: 10px;
-  width: 1440px;
-  height: 64px;
-  left: 0px;
-  top: 3213px;
-  background-color: #3c8694;
-  color: white;
-  padding-top: 20px;
-}
-
-.navbar {
-  position: fixed;
-  left: 47px;
-  top: 32px;
-  display: flex;
-  align-items: center;
-}
-
-.nav-logo {
-  padding-left: 47px;
-}
-
-.nav-menu {
-  padding-left: 979px;
-  justify-content: space-between;
-}
-
-body {
-  font-family: "League Spartan";
 }
