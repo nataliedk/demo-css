@@ -1,0 +1,102 @@
+.profile1 {
+    display: inline-block;
+    position: absolute;
+    width: 509.5px;
+    height: 480px;
+    left: 130px;
+    top: 192px;
+}
+
+.greet{
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    left: 627px;
+    top: 340px;
+    /* Headline 2 Reg */
+    font-style: normal;
+    font-weight: 350;
+    font-size: 24px;
+    line-height: 28px;
+    /* or 117% */
+    letter-spacing: 0.04em;
+}
+
+.name{
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    left: 622px;
+    top: 386px;
+    
+    font-style: normal;
+    font-weight: 350;
+    font-size: 48px;
+    line-height: 36px;
+    /* or 75% */
+    letter-spacing: 0.04em;
+}
+
+.intro{
+    position: absolute;
+    width: 450px;
+    height: 30px;
+    left: 656px;
+    top: 441px;
+    /* Headline 5 Reg */
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    letter-spacing: 0.04em;
+}
+.quotes-r{
+    display: inline-block;
+    position: absolute;
+    width: 19px;
+    height: 278px;
+    left: 1368px;
+    top: 262px;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    letter-spacing: 0.04em;
+}
+.quotes-l{
+    display: inline-block;
+    position: absolute;
+    width: 19px;
+    height: 278px;
+    left: 1344px;
+    top: 262px; 
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    /* or 129% */
+    letter-spacing: 0.04em;
+}
+.welcome{
+    display: inline-block;
+    font-family: "League Spartan";
+    background-color: white;
+}
+
+footer{
+    position: absolute;
+    width: 1440px;
+    height: 64px;
+    left: 0px;
+    top: 3213px;
+    background-color: #3C8694;
+    color: white;
+}
