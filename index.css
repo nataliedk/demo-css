@@ -1,112 +1,121 @@
 .profile1 {
-    display: inline-block;
-    position: absolute;
-    width: 509.5px;
-    height: 480px;
-    left: 130px;
-    top: 192px;
+  display: inline-block;
+  position: absolute;
+  width: 509.5px;
+  height: 480px;
+  left: 130px;
+  top: 192px;
 }
 
-.greet{
-    position: absolute;
-    width: 450px;
-    height: 50px;
-    left: 627px;
-    top: 340px;
-    /* Headline 2 Reg */
-    font-style: normal;
-    font-weight: 350;
-    font-size: 24px;
-    line-height: 28px;
-    /* or 117% */
-    letter-spacing: 0.04em;
-    background-color: white;
+.greet {
+  position: absolute;
+  width: 450px;
+  height: 50px;
+  left: 627px;
+  top: 340px;
+  /* Headline 2 Reg */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 24px;
+  line-height: 28px;
+  /* or 117% */
+  letter-spacing: 0.04em;
+  background-color: white;
 }
 
-.name{
-    position: absolute;
-    width: 450px;
-    height: 40px;
-    left: 622px;
-    top: 380px;
-    
-    font-style: normal;
-    font-weight: 350;
-    font-size: 48px;
-    line-height: 36px;
-    /* or 75% */
-    letter-spacing: 0.04em;
-    background-color: white;
+.name {
+  position: absolute;
+  width: 450px;
+  height: 40px;
+  left: 622px;
+  top: 380px;
+
+  font-style: normal;
+  font-weight: 350;
+  font-size: 48px;
+  line-height: 36px;
+  /* or 75% */
+  letter-spacing: 0.04em;
+  background-color: white;
 }
 
-.intro{
-    position: absolute;
-    width: 300px;
-    height: 30px;
-    left: 656px;
-    top: 430px;
-    /* Headline 5 Reg */
-    font-style: normal;
-    font-weight: 200;
-    font-size: 16px;
-    line-height: 18px;
-    /* or 129% */
-    letter-spacing: 0.04em;
+.intro {
+  position: absolute;
+  width: 300px;
+  height: 30px;
+  left: 656px;
+  top: 430px;
+  /* Headline 5 Reg */
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  /* or 129% */
+  letter-spacing: 0.04em;
 }
-.quotes-r{
-    display: inline-block;
-    position: absolute;
-    width: 19px;
-    height: 278px;
-    left: 1368px;
-    top: 262px;
-}
-
-.quotes-l{
-    display: inline-block;
-    position: absolute;
-    width: 19px;
-    height: 278px;
-    left: 1344px;
-    top: 262px;   
+.quotes-r {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 278px;
+  left: 1368px;
+  top: 262px;
 }
 
-.quotes-l, .quotes-r{
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 18px;
-    /* or 129% */
-    letter-spacing: 0.04em;
-}
-.welcome{
-    display: inline-block;
-    background-color: white;
+.quotes-l {
+  display: inline-block;
+  position: absolute;
+  width: 19px;
+  height: 278px;
+  left: 1344px;
+  top: 262px;
 }
 
-.h1-reg{
-    /* Headline 1 Reg */
-    font-style: normal;
-    font-weight: 350;
-    font-size: 32px;
-    line-height: 36px;
-    /* or 112% */
-    letter-spacing: 0.04em;
-
+.quotes-l,
+.quotes-r {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+  letter-spacing: 0.04em;
+}
+.welcome {
+  display: inline-block;
+  background-color: white;
 }
 
-footer{
-    position: absolute;
-    width: 1440px;
-    height: 64px;
-    left: 0px;
-    top: 3213px;
-    background-color: #3C8694;
-    color: white;
+.h1-reg {
+  /* Headline 1 Reg */
+  font-style: normal;
+  font-weight: 350;
+  font-size: 32px;
+  line-height: 36px;
+  /* or 112% */
+  letter-spacing: 0.04em;
 }
 
-body{
-    font-family: "League Spartan";
+.section2 {
+  position: static;
+  width: 900px;
+  height: 420px;
+  margin-top: 1510px;
+  margin-left: 124px;
+}
+
+footer {
+  position: absolute;
+  padding: 10px;
+  width: 1440px;
+  height: 64px;
+  left: 0px;
+  top: 3213px;
+  background-color: #3c8694;
+  color: white;
+}
+
+body {
+  font-family: "League Spartan";
 }
