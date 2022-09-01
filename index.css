@@ -8,19 +8,36 @@ footer {
   width: 1440px;
   height: 64px;
   left: 0px;
-  top: 3213px;
+  top: 2400px;
   background-color: #3c8694;
   color: white;
   padding-top: 20px;
 }
 
+.h1-reg {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 32px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+}
+
+.h2-reg {
+  font-style: normal;
+  font-weight: 350;
+  font-size: 25px;
+  line-height: 36px;
+  letter-spacing: 0.04em;
+}
+
 .navbar {
   position: fixed;
-  left: 47px;
-  top: 32px;
   display: flex;
   align-items: center;
-  background-color: aliceblue;
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: white;
 }
 
 .nav-logo {
@@ -28,15 +45,32 @@ footer {
 }
 
 .nav-menu {
-  padding-left: 979px;
+  padding-left: 850px;
   justify-content: space-between;
+}
+
+.nav-menu a {
+  color: black;
+  margin-left: 50px;
   text-transform: uppercase;
 }
 
-.profile-1 {
+.menu-active {
+  color: black;
+  text-decoration: underline;
+}
+
+.menu-unactive {
+  color: black;
+  text-decoration: none;
+}
+
+/** Hero Section **/
+
+.profile1 {
   display: inline-block;
   position: absolute;
-  width: 509.5px;
+  width: 509px;
   height: 480px;
   left: 130px;
   top: 192px;
@@ -53,7 +87,6 @@ footer {
   font-weight: 350;
   font-size: 24px;
   line-height: 28px;
-  /* or 117% */
   letter-spacing: 0.04em;
   background-color: white;
 }
@@ -69,7 +102,6 @@ footer {
   font-weight: 350;
   font-size: 48px;
   line-height: 36px;
-  /* or 75% */
   letter-spacing: 0.04em;
   background-color: white;
 }
@@ -88,6 +120,7 @@ footer {
   /* or 129% */
   letter-spacing: 0.04em;
 }
+
 .quotes-r {
   display: inline-block;
   position: absolute;
@@ -117,25 +150,77 @@ footer {
   /* or 129% */
   letter-spacing: 0.04em;
 }
-.welcome {
-  display: inline-block;
-  background-color: white;
+
+.scroll-down {
+  padding-top: 710px;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #9f9f9f;
 }
 
-.headline {
-  /* Headline 1 Reg */
+.down-arrow {
+  margin-top: -60px;
+  padding-left: 698px;
+}
+
+/** About Me **/
+
+.title-s2 {
+  padding-top: 15px;
+  padding-left: 650px;
+}
+
+.section2 {
+  background-color: #ddc0c0;
+  margin-top: 90px;
+  width: 1440px;
+  height: 500px;
+}
+
+.aboutme {
+  display: inline-block;
+  margin-left: 60px;
+  width: 590px;
+  justify-content: left;
   font-style: normal;
   font-weight: 350;
-  font-size: 32px;
-  line-height: 36px;
-  /* or 112% */
+  font-size: 24px;
+  line-height: 28px;
   letter-spacing: 0.04em;
 }
 
-.section-2 {
+.aboutme-img {
+  display: inline-block;
+  padding-left: 200px;
+}
+
+/** Personal Skills **/
+
+.title-s3 {
+  padding-left: 640px;
+}
+
+.section3 {
   position: static;
-  width: 900px;
   height: 420px;
-  margin-top: 1510px;
-  margin-left: 124px;
+  margin-top: 100px;
+}
+
+/** Connect **/
+.title-s4 {
+  padding-left: 640px;
+}
+
+.section4 {
+  position: static;
+  width: 1440px;
+  height: 300px;
+  margin-top: 220px;
+  background-color: #ececea;
+  text-align: center;
 }
