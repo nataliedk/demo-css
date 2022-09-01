@@ -20,6 +20,7 @@ footer {
   top: 32px;
   display: flex;
   align-items: center;
+  background-color: aliceblue;
 }
 
 .nav-logo {
