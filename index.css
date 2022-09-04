@@ -31,6 +31,14 @@ footer {
   letter-spacing: 0.04em;
 }
 
+.h5-reg {
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+}
+
 .navbar {
   position: fixed;
   display: flex;
@@ -121,7 +129,6 @@ footer {
   font-weight: 200;
   font-size: 16px;
   line-height: 18px;
-  /* or 129% */
   letter-spacing: 0.04em;
 }
 
@@ -151,7 +158,6 @@ footer {
   font-weight: 100;
   font-size: 14px;
   line-height: 18px;
-  /* or 129% */
   letter-spacing: 0.04em;
 }
 
