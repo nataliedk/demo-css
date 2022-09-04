@@ -188,7 +188,8 @@ footer {
 .title-s2 {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  width: 860px;
+  justify-content: space-between;
 }
 
 .s-aboutme {
@@ -225,24 +226,51 @@ footer {
   justify-content: center;
 }
 
-.skill-1 {
+.skill {
   display: flex;
   flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 1000px;
 }
 
-.skill-2 {
-  display: flex;
-  flex-direction: row;
+.s-line-1 {
+  margin-left: -60px;
 }
 
-.skill-3 {
+.s-icons-1 {
   display: flex;
-  flex-direction: row;
+  width: 260px;
+  justify-content: space-between;
 }
 
-.skill-4 {
+.s-line-2 {
+  margin-right: -50px;
+}
+
+.s-icons-2 {
   display: flex;
-  flex-direction: row;
+  width: 156px;
+  justify-content: space-between;
+}
+
+.s-line-3 {
+  margin-left: -50px;
+}
+
+.s-icons-3 {
+  display: flex;
+  width: 260px;
+  justify-content: space-between;
+}
+
+.s-line-4 {
+  margin-right: -50px;
+}
+.s-icons-4 {
+  display: flex;
+  width: 156px;
+  justify-content: space-between;
 }
 
 /** Connect **/
